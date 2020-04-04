@@ -1,0 +1,67 @@
+body {
+	background: #414158;
+}
+
+table {
+	width: 1000px;
+	margin: auto;
+	margin-top: 100px;
+	table-layout: fixed;
+}
+
+table, th, td {
+	color: #fff;
+	border-collapse: collapse;
+	border: 1px dotted white;
+	text-allign: center;
+	font-family: Arial;
+}
+
+th {
+	font-size: 20px;
+	padding: 17px;
+}
+
+td {
+	padding: 17px 20px;
+	fontsize: 17px;
+}
+
+tr:nth-child(even) {
+	background-color: #181b2f
+}
+
+tr:nth-child(odd) {
+	background-color: #000
+}
+
+input[type=button] {
+	border: dotted;
+	outline: none;
+	padding: 10px;
+	color: #fff;
+	font-size: 16px;
+	font-family: Arial;
+	background: #6f2727;
+	cursor: pointer;
+	border-radius: 20px;
+}
+
+input[type=button]:hover {
+	background: #eced40;
+	color: #272626;
+}
+
+h1 {
+	text-align: center;
+	color: #ffb308;
+	font-size: 50px;
+	font-family: serif;
+}
+
+h2 {
+	text-align: center;
+	color: white;
+	font-size: 25px;
+	font-family: serif;
+}
